@@ -1,10 +1,18 @@
 *,
-::after,
-::before {
+::before,
+::after {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
 }
+label {
+  font-size: 20px;
+}
 .container {
   background-color: gray;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
